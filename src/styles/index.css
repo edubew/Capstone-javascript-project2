@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2px 12px;
+}
+
+#logoIcon {
+  width: 80px;
+  border-radius: 80px;
+}
+
+ul {
+  list-style: none;
+}
+
+#navbar {
+  display: flex;
+}
+
+#navbar li {
+  padding: 12px;
+  font-size: 18px;
+  font-weight: 600;
+}
