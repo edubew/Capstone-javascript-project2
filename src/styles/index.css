@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -27,4 +33,13 @@ ul {
   padding: 12px;
   font-size: 18px;
   font-weight: 600;
+}
+
+#footer {
+  text-align: center;
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }
