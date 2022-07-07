@@ -35,14 +35,14 @@ ul {
   font-weight: 600;
 }
 
-#footer {
+/* #footer {
   text-align: center;
   position: absolute;
   top: 93%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-}
+} */
 
 .wrapper {
   margin: 3% 20%;
@@ -56,8 +56,8 @@ ul {
 }
 
 .details img {
-  width: 200px;
-  margin: 2%;
+  width: 300px;
+  margin: 4% 15%;
 }
 
 .details h1 {
