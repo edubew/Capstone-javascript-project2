@@ -12,13 +12,13 @@ logoIcon.src = logo2;
 
 const getEpisodeDetails = async (e) => {
   e.preventDefault();
-  if(e.target.classList.contains('comment-btn')){
-    let itemId = e.target.parentElement.parentElement;
-     const res = await fetch(`https://api.tvmaze.com/seasons/1/episodes=${itemId}`);
+  if (e.target.classList.contains('comment-btn')) {
+    const itemId = e.target.parentElement.parentElement;
+    const res = await fetch(`https://api.tvmaze.com/seasons/1/episodes=${itemId}`);
     const data = await res.json();
     getEpisodeDetails(data.result);
   }
-}
+};
 
 const details = document.querySelector('.details');
 const popupWindow = (episodedetails) => {
@@ -36,4 +36,3 @@ const popupWindow = (episodedetails) => {
     details.innerHTML = output;
   });
 };
-
