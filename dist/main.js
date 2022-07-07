@@ -718,7 +718,13 @@ var popupWindow = function popupWindow(episodedetails) {
     output += "\n     <div class=\"image-container\">\n           <span class=\"close-btn\">X</span>\n        <img src=\"".concat(image.original, "\" id=\"epImage\" alt=\"\" />\n        </div>\n        <h1>").concat(name, "</h1>\n        <p>Episode:").concat(number, "</p>\n        <p>").concat(summary, "</p>\n    ");
     details.innerHTML = output;
   });
-};
+}; // Comments section
+
+
+var addComments = document.querySelector('.add-comment');
+var html = '';
+html += "\n   <h2>Add a comment</h2>\n        <form action=\"#\">\n          <input type=\"text\" placeholder=\"Your name\" required><br>\n          <input type=\"text\" placeholder=\"Your insights\" required><br>\n          <button type=\"submit\">Comment</button>\n        </form>\n";
+addComments.innerHTML = html;
 })();
 
 /******/ })()

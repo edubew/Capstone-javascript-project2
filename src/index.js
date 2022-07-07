@@ -36,3 +36,16 @@ const popupWindow = (episodedetails) => {
     details.innerHTML = output;
   });
 };
+
+// Comments section
+const addComments = document.querySelector('.add-comment');
+let html = '';
+html += `
+   <h2>Add a comment</h2>
+        <form action="#">
+          <input type="text" placeholder="Your name" required><br>
+          <input type="text" placeholder="Your insights" required><br>
+          <button type="submit">Comment</button>
+        </form>
+`;
+addComments.innerHTML = html;
