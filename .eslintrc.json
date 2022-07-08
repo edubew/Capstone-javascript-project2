@@ -17,6 +17,7 @@
     "no-param-reassign": "off",
     "no-restricted-globals": "off",
     "no-unused-vars": "off",
+    "no-use-before-define": "off",
     "array-callback-return": "off",
     "no-undef": "off",
     "eol-last": "off",

@@ -1,56 +1,10 @@
 import './styles/index.css';
 import logo2 from './assets/logo2.jpg';
-// import logo3 from './assets/logo3.jpg';
 
 const logoIcon = document.querySelector('#logoIcon');
 logoIcon.src = logo2;
- comments-popup
 
-// const epImage = document.querySelector('#epImage');
-// epImage.src = logo3;
-
-// Modal window dom activities
-
-const getEpisodeDetails = async (e) => {
-  e.preventDefault();
-  if (e.target.classList.contains('comment-btn')) {
-    const itemId = e.target.parentElement.parentElement;
-    const res = await fetch(`https://api.tvmaze.com/seasons/1/episodes=${itemId}`);
-    const data = await res.json();
-    getEpisodeDetails(data.result);
-  }
-};
-
-const details = document.querySelector('.details');
-const popupWindow = (episodedetails) => {
-  let output = '';
-  episodedetails.map((detail) => {
-    output += `
-     <div class="image-container">
-           <span class="close-btn">X</span>
-        <img src="${image.original}" id="epImage" alt="" />
-        </div>
-        <h1>${name}</h1>
-        <p>Episode:${number}</p>
-        <p>${summary}</p>
-    `;
-    details.innerHTML = output;
-  });
-};
-
-// Comments section
-const addComments = document.querySelector('.add-comment');
-let html = '';
-html += `
-   <h2>Add a comment</h2>
-        <form action="#">
-          <input type="text" placeholder="Your name" required><br>
-          <input type="text" placeholder="Your insights" required><br>
-          <button type="submit">Comment</button>
-        </form>
-`;
-addComments.innerHTML = html;
-
+// Homepage Api Data
 const card = document.querySelector('.card-container');
 
 const getEpisodeList = async () => {
@@ -60,7 +14,7 @@ const getEpisodeList = async () => {
   // eslint-disable-next-line array-callback-return
   data.map((episode) => {
     show += `
-      <div class = "cards">
+      <div id = "${episode.id}"class = "cards">
        <img src="${episode.image.medium}" id="image" alt="" />
         <div class="heading">
            <h2>${episode.name}</h2>
@@ -68,11 +22,65 @@ const getEpisodeList = async () => {
         </div>
         <p>Rating: ${episode.rating.average}</p>
         <p>${episode.summary}</p>
-        <button type="submit" class="comment-btn">Comments</button>
+        <button type="submit" onclick="document.getElementById(${episode.id}).style.display='block'" class="comment-btn">Comments</button>
         </div>
       `;
     card.innerHTML = show;
   });
+  const commentBtn = document.querySelectorAll('.comment-btn');
+  commentBtn.forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      if (e.target.classList.contains('comment-btn')) {
+        const { id } = e.target.parentNode;
+        commentsPopup((id));
+      }
+    });
+  });
 };
 window.addEventListener('load', getEpisodeList);
- develop
+
+// Modal window dom activities
+const info = document.querySelector('.details');
+
+const commentsPopup = async (id) => {
+  const response = await fetch(`https://api.tvmaze.com/shows/1/episodebynumber?season=1&number=${id}`);
+  const data = await response.json();
+  const output = `
+        <div class="image-container">
+          <span class = "close-btn" onclick="closeModal().style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <img src="${data.image.original}" id="epImage" alt="" />
+        </div>
+        <h1>${data.name}</h1>
+        <p>Episode:${data.number}</p>
+        <p>${data.summary}</p>
+  `;
+  info.innerHTML += output;
+  info.parentElement.classList.add('active');
+
+  let comment = '';
+  comment += `
+    <div class="comments">
+        <h2>Comments</h2>
+        <p>This is crazy!</p>
+       </div>
+  `;
+  info.innerHTML += comment;
+
+  const addComments = document.querySelector('.add-comment');
+  let html = '';
+  html += `
+   <h2>Add a comment</h2>
+        <form action="#">
+          <input type="text" placeholder="Your name" required><br>
+          <input type="text" placeholder="Your insights" required><br>
+          <button type="submit">Comment</button>
+        </form>
+`;
+  addComments.innerHTML = html;
+};
+
+const closeModal = () => {
+  info.innerHTML = '';
+  addComments.innerHTML = '';
+};
+closeModal();
