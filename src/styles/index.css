@@ -39,6 +39,14 @@ ul {
   font-weight: 600;
 }
 
+
+.card-container p {
+  color: #fff;
+  width: 200px;
+  margin: 5px 30px;
+  line-height: 20px;
+}
+
 #footer {
   position: absolute;
   text-align: center;
@@ -95,12 +103,6 @@ ul {
   font-size: 24px;
 }
 
-.card-container p {
-  color: #fff;
-  width: 200px;
-  margin: 5px 30px;
-  line-height: 20px;
-}
 
 button {
   margin: 5px 50px;
