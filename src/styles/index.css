@@ -6,14 +6,17 @@
 
 body {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
+  background: #000;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   margin: 2px 12px;
+  background: #fff;
+  border-radius: 8px;
 }
 
 #logoIcon {
@@ -27,6 +30,7 @@ ul {
 
 #navbar {
   display: flex;
+  align-items: center;
 }
 
 #navbar li {
@@ -35,11 +39,71 @@ ul {
   font-weight: 600;
 }
 
+.card-container p {
+  color: #fff;
+  width: 200px;
+  margin: 5px 30px;
+  line-height: 20px;
+}
+
 #footer {
-  text-align: center;
   position: absolute;
-  top: 93%;
+  text-align: center;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+  margin: 20px 0;
+  background: #fff;
+}
+
+#footer p {
+  padding: 20px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.cards {
+  margin: 10px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background:
+    linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.2),
+      rgba(17, 2, 13, 0.829)
+    );
+}
+
+#image {
+  width: 200px;
+  margin: 10px 30px;
+}
+
+.heading {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 30px;
+}
+
+.heading h2 {
+  color: #fff;
+}
+
+.heading i {
+  color: red;
+  font-size: 24px;
+}
+
+button {
+  margin: 5px 50px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px;
 }
