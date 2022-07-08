@@ -45,10 +45,13 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  color: #fff;
   margin: 20px 0;
-  padding-bottom: 20px;
+  background: #fff;
 
+}
+
+#footer p {
+  padding: 20px;
 }
 
 
