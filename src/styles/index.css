@@ -39,7 +39,6 @@ ul {
   font-weight: 600;
 }
 
-
 .card-container p {
   color: #fff;
   width: 200px;
@@ -55,31 +54,30 @@ ul {
   width: 100%;
   margin: 20px 0;
   background: #fff;
-
 }
 
 #footer p {
   padding: 20px;
 }
 
-
 .card-container {
   display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
   margin: 10px;
- border-radius: 10px;
- 
-} 
+  border-radius: 10px;
+}
 
 .cards {
   margin: 10px;
   border: 2px solid #fff;
   border-radius: 10px;
   background:
-      linear-gradient(to right bottom,
-        rgba(255, 255, 255, 0.2),
-        rgba(17, 2, 13, 0.829));
+    linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.2),
+      rgba(17, 2, 13, 0.829)
+    );
 }
 
 #image {
@@ -102,7 +100,6 @@ ul {
   color: red;
   font-size: 24px;
 }
-
 
 button {
   margin: 5px 50px;
