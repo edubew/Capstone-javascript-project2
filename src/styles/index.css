@@ -6,14 +6,17 @@
 
 body {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
+  background: #000;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   margin: 2px 12px;
+  background: #fff;
+  border-radius: 8px;
 }
 
 #logoIcon {
@@ -27,6 +30,7 @@ ul {
 
 #navbar {
   display: flex;
+  align-items: center;
 }
 
 #navbar li {
@@ -36,13 +40,17 @@ ul {
 }
 
 #footer {
-  text-align: center;
   position: absolute;
-  top: 93%;
+  text-align: center;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+  color: #fff;
+  margin: 20px 0;
+  padding-bottom: 20px;
+
 }
+
 
 .card-container {
   display: grid;
