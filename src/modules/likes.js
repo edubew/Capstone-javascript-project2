@@ -3,6 +3,7 @@ import Utilities from './utilities.js';
 import { displayItemCounted } from './displayCount.js';
 
 const InvolvementApiKey = 'oWfus23KNVDBoOzs2EjU';
+const utilities = new Utilities();
 
 const appIDLikes = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/${InvolvementApiKey}/likes`;
 
