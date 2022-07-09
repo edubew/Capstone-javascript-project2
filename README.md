@@ -3,12 +3,7 @@
 this project is about movies and series collections from an API which helps users to view list of different movies, like a movie of their choice and also add comments to their favorite movies. 
 # Web presentation
 ## Video Presentation
-[Presentation Link]()
-
-## Live Demo
-
-[See Demo]()
-
+[[Presentation Link](https://drive.google.com/drive/u/0/folders/1bghPtWZdmRdPXwG0_Zw9XP0c7YvhfRhU)]()
 
 Additional description about the project and its features.
 
