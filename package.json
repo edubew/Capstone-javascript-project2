@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --open",
     "build": "webpack",
-    "dev": "webpack serve"
+    "start": "webpack serve --open",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
