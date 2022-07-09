@@ -62,7 +62,7 @@ ul {
   padding: 16px 0;
 }
 
-.close-btn {
+#close-btn {
   position: absolute;
   right: 32px;
   top: 32px;
@@ -176,4 +176,8 @@ button {
 
 .active {
   display: block;
+}
+
+.hide {
+  display: none;
 }
