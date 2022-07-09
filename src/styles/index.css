@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background: #000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2px 12px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.movies-count {
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#logoIcon {
+  width: 80px;
+  border-radius: 80px;
+}
+
+ul {
+  list-style: none;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+}
+
+.comments-container li {
+  text-align: center;
+}
+
+#navbar li {
+  padding: 12px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.img-popup {
+  width: 300px;
+  margin: 5% 30%;
+}
+
+.subtitles-container p {
+  text-align: center;
+}
+
+.comments-container h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.add-container h3 {
+  text-align: center;
+}
+
+form {
+  margin-left: 40%;
+}
+
+input[type="text"] {
+  margin: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.card {
+  color: #fff;
+  border-radius: 10px;
+  background:
+    linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.2),
+      rgba(22, 18, 21, 0.829)
+    );
+}
+
+#footer p {
+  padding: 20px;
+}
+
+#footer {
+  text-align: center;
+  background: #fff;
+  font-weight: 500;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#image {
+  width: 200px;
+  margin: 10px 30px;
+}
+
+.btn {
+  border: 2px solid wheat;
+  color: #fff;
+}
+
+.active {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
