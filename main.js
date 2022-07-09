@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  width: 100%;\n  min-height: 100vh;\n  position: relative;\n  background: #000;\n}\n\nnav {\n  display: flex;\n  justify-content: space-between;\n  margin: 2px 12px;\n  background: #fff;\n  border-radius: 8px;\n}\n\n#logoIcon {\n  width: 80px;\n  border-radius: 80px;\n}\n\nul {\n  list-style: none;\n}\n\n#navbar {\n  display: flex;\n  align-items: center;\n}\n\n#navbar li {\n  padding: 12px;\n  font-size: 18px;\n  font-weight: 600;\n}\n\n.wrapper {\n  position: fixed;\n  width: 60%;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  -webkit-transform: translate(-50%, -50%);\n  -moz-transform: translate(-50%, -50%);\n  -ms-transform: translate(-50%, -50%);\n  -o-transform: translate(-50%, -50%);\n  background-color: rgb(66, 66, 108);\n  color: #fff;\n  border-radius: 16px;\n  -webkit-border-radius: 16px;\n  -moz-border-radius: 16px;\n  -ms-border-radius: 16px;\n  -o-border-radius: 16px;\n  display: none;\n  height: 90%;\n  overflow-y: scroll;\n  padding: 16px 0;\n}\n\n.close-btn {\n  position: absolute;\n  right: 32px;\n  top: 32px;\n  font-size: 24px;\n  background-color: #000;\n  width: 35px;\n  padding: 8px;\n  cursor: pointer;\n}\n\n.details img {\n  width: 300px;\n  margin: 5% 30%;\n}\n\n.details h1 {\n  text-align: center;\n  margin: 2% 0;\n}\n\n.details p {\n  text-align: center;\n  margin: 3%;\n  line-height: 28px;\n  font-size: 18px;\n}\n\n.comments h2 {\n  text-align: center;\n  margin-bottom: 14px;\n}\n\n.comments p {\n  text-align: center;\n}\n\n.add-comment h2 {\n  text-align: center;\n  margin: 12px 0;\n}\n\nform {\n  margin: 0 30%;\n}\n\ninput[type=text] {\n  margin: 8px;\n  font-size: 18px;\n  font-weight: 600;\n  padding: 10px;\n}\n\n.cards p {\n  text-align: start;\n  color: #fff;\n  height: auto;\n  margin: 10px;\n}\n\n#footer p {\n  padding: 20px;\n}\n\n.card-container {\n  display: grid;\n  grid-template-columns: repeat(4, 1fr);\n  gap: 2rem;\n  margin: 10px;\n  border-radius: 10px;\n}\n\n.cards {\n  margin: 10px;\n  border: 2px solid #fff;\n  border-radius: 10px;\n  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), rgba(17, 2, 13, 0.829));\n}\n\n#image {\n  width: 200px;\n  margin: 10px 30px;\n}\n\n.heading {\n  width: 200px;\n  display: flex;\n  justify-content: space-between;\n  margin: 10px 30px;\n}\n\n.heading h2 {\n  color: #fff;\n}\n\n.heading i {\n  color: red;\n  font-size: 24px;\n}\n\nbutton {\n  margin: 5px 50px;\n  font-size: 18px;\n  font-weight: 600;\n  padding: 8px;\n}\n\n.active {\n  display: block;\n}", "",{"version":3,"sources":["webpack://./src/styles/index.css"],"names":[],"mappings":"AAAA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;AACF;;AAEA;EACE,WAAA;EACA,iBAAA;EACA,kBAAA;EACA,gBAAA;AACF;;AAEA;EACE,aAAA;EACA,8BAAA;EACA,gBAAA;EACA,gBAAA;EACA,kBAAA;AACF;;AAEA;EACE,WAAA;EACA,mBAAA;AACF;;AAEA;EACE,gBAAA;AACF;;AAEA;EACE,aAAA;EACA,mBAAA;AACF;;AAEA;EACE,aAAA;EACA,eAAA;EACA,gBAAA;AACF;;AAEA;EACE,eAAA;EACA,UAAA;EACA,QAAA;EACA,SAAA;EACA,gCAAA;EACA,wCAAA;EACA,qCAAA;EACA,oCAAA;EACA,mCAAA;EACA,kCAAA;EACA,WAAA;EACA,mBAAA;EACA,2BAAA;EACA,wBAAA;EACA,uBAAA;EACA,sBAAA;EACA,aAAA;EACA,WAAA;EACA,kBAAA;EACA,eAAA;AACF;;AAEA;EACE,kBAAA;EACA,WAAA;EACA,SAAA;EACA,eAAA;EACA,sBAAA;EACA,WAAA;EACA,YAAA;EACA,eAAA;AACF;;AAEA;EACE,YAAA;EACA,cAAA;AACF;;AAEA;EACE,kBAAA;EACA,YAAA;AACF;;AAEA;EACE,kBAAA;EACA,UAAA;EACA,iBAAA;EACA,eAAA;AACF;;AAEA;EACE,kBAAA;EACA,mBAAA;AACF;;AAEA;EACE,kBAAA;AACF;;AAEA;EACE,kBAAA;EACA,cAAA;AACF;;AAEA;EACE,aAAA;AACF;;AAEA;EACE,WAAA;EACA,eAAA;EACA,gBAAA;EACA,aAAA;AACF;;AAEA;EACE,iBAAA;EACA,WAAA;EACA,YAAA;EACA,YAAA;AACF;;AAEA;EACE,aAAA;AACF;;AAEA;EACE,aAAA;EACA,qCAAA;EACA,SAAA;EACA,YAAA;EACA,mBAAA;AACF;;AAEA;EACE,YAAA;EACA,sBAAA;EACA,mBAAA;EACA,8FACE;AAAJ;;AAOA;EACE,YAAA;EACA,iBAAA;AAJF;;AAOA;EACE,YAAA;EACA,aAAA;EACA,8BAAA;EACA,iBAAA;AAJF;;AAOA;EACE,WAAA;AAJF;;AAOA;EACE,UAAA;EACA,eAAA;AAJF;;AAOA;EACE,gBAAA;EACA,eAAA;EACA,gBAAA;EACA,YAAA;AAJF;;AAOA;EACE,cAAA;AAJF","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  width: 100%;\r\n  min-height: 100vh;\r\n  position: relative;\r\n  background: #000;\r\n}\r\n\r\nnav {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  margin: 2px 12px;\r\n  background: #fff;\r\n  border-radius: 8px;\r\n}\r\n\r\n#logoIcon {\r\n  width: 80px;\r\n  border-radius: 80px;\r\n}\r\n\r\nul {\r\n  list-style: none;\r\n}\r\n\r\n#navbar {\r\n  display: flex;\r\n  align-items: center;\r\n}\r\n\r\n#navbar li {\r\n  padding: 12px;\r\n  font-size: 18px;\r\n  font-weight: 600;\r\n}\r\n\r\n.wrapper {\r\n  position: fixed;\r\n  width: 60%;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%);\r\n  -webkit-transform: translate(-50%, -50%);\r\n  -moz-transform: translate(-50%, -50%);\r\n  -ms-transform: translate(-50%, -50%);\r\n  -o-transform: translate(-50%, -50%);\r\n  background-color: rgb(66, 66, 108);\r\n  color: #fff;\r\n  border-radius: 16px;\r\n  -webkit-border-radius: 16px;\r\n  -moz-border-radius: 16px;\r\n  -ms-border-radius: 16px;\r\n  -o-border-radius: 16px;\r\n  display: none;\r\n  height: 90%;\r\n  overflow-y: scroll;\r\n  padding: 16px 0;\r\n}\r\n\r\n.close-btn {\r\n  position: absolute;\r\n  right: 32px;\r\n  top: 32px;\r\n  font-size: 24px;\r\n  background-color: #000;\r\n  width: 35px;\r\n  padding: 8px;\r\n  cursor: pointer;\r\n}\r\n\r\n.details img {\r\n  width: 300px;\r\n  margin: 5% 30%;\r\n}\r\n\r\n.details h1 {\r\n  text-align: center;\r\n  margin: 2% 0;\r\n}\r\n\r\n.details p {\r\n  text-align: center;\r\n  margin: 3%;\r\n  line-height: 28px;\r\n  font-size: 18px;\r\n}\r\n\r\n.comments h2 {\r\n  text-align: center;\r\n  margin-bottom: 14px;\r\n}\r\n\r\n.comments p {\r\n  text-align: center;\r\n}\r\n\r\n.add-comment h2 {\r\n  text-align: center;\r\n  margin: 12px 0;\r\n}\r\n\r\nform {\r\n  margin: 0 30%;\r\n}\r\n\r\ninput[type=\"text\"] {\r\n  margin: 8px;\r\n  font-size: 18px;\r\n  font-weight: 600;\r\n  padding: 10px;\r\n}\r\n\r\n.cards p {\r\n  text-align: start;\r\n  color: #fff;\r\n  height: auto;\r\n  margin: 10px;\r\n}\r\n\r\n#footer p {\r\n  padding: 20px;\r\n}\r\n\r\n.card-container {\r\n  display: grid;\r\n  grid-template-columns: repeat(4, 1fr);\r\n  gap: 2rem;\r\n  margin: 10px;\r\n  border-radius: 10px;\r\n}\r\n\r\n.cards {\r\n  margin: 10px;\r\n  border: 2px solid #fff;\r\n  border-radius: 10px;\r\n  background:\r\n    linear-gradient(\r\n      to right bottom,\r\n      rgba(255, 255, 255, 0.2),\r\n      rgba(17, 2, 13, 0.829)\r\n    );\r\n}\r\n\r\n#image {\r\n  width: 200px;\r\n  margin: 10px 30px;\r\n}\r\n\r\n.heading {\r\n  width: 200px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  margin: 10px 30px;\r\n}\r\n\r\n.heading h2 {\r\n  color: #fff;\r\n}\r\n\r\n.heading i {\r\n  color: red;\r\n  font-size: 24px;\r\n}\r\n\r\nbutton {\r\n  margin: 5px 50px;\r\n  font-size: 18px;\r\n  font-weight: 600;\r\n  padding: 8px;\r\n}\r\n\r\n.active {\r\n  display: block;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  width: 100%;\n  min-height: 100vh;\n  position: relative;\n  background: #000;\n}\n\nnav {\n  display: flex;\n  justify-content: space-between;\n  margin: 2px 12px;\n  background: #fff;\n  border-radius: 8px;\n}\n\n#logoIcon {\n  width: 80px;\n  border-radius: 80px;\n}\n\nul {\n  list-style: none;\n}\n\n#navbar {\n  display: flex;\n  align-items: center;\n}\n\n#navbar li {\n  padding: 12px;\n  font-size: 18px;\n  font-weight: 600;\n}\n\n.wrapper {\n  position: fixed;\n  width: 60%;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  -webkit-transform: translate(-50%, -50%);\n  -moz-transform: translate(-50%, -50%);\n  -ms-transform: translate(-50%, -50%);\n  -o-transform: translate(-50%, -50%);\n  background-color: rgb(66, 66, 108);\n  color: #fff;\n  border-radius: 16px;\n  -webkit-border-radius: 16px;\n  -moz-border-radius: 16px;\n  -ms-border-radius: 16px;\n  -o-border-radius: 16px;\n  display: none;\n  height: 90%;\n  overflow-y: scroll;\n  padding: 16px 0;\n}\n\n#close-btn {\n  position: absolute;\n  right: 32px;\n  top: 32px;\n  font-size: 24px;\n  background-color: #000;\n  width: 35px;\n  padding: 8px;\n  cursor: pointer;\n}\n\n.details img {\n  width: 300px;\n  margin: 5% 30%;\n}\n\n.details h1 {\n  text-align: center;\n  margin: 2% 0;\n}\n\n.details p {\n  text-align: center;\n  margin: 3%;\n  line-height: 28px;\n  font-size: 18px;\n}\n\n.comments h2 {\n  text-align: center;\n  margin-bottom: 14px;\n}\n\n.comments p {\n  text-align: center;\n}\n\n.add-comment h2 {\n  text-align: center;\n  margin: 12px 0;\n}\n\nform {\n  margin: 0 30%;\n}\n\ninput[type=text] {\n  margin: 8px;\n  font-size: 18px;\n  font-weight: 600;\n  padding: 10px;\n}\n\n.cards p {\n  text-align: start;\n  color: #fff;\n  height: auto;\n  margin: 10px;\n}\n\n#footer p {\n  padding: 20px;\n}\n\n.card-container {\n  display: grid;\n  grid-template-columns: repeat(4, 1fr);\n  gap: 2rem;\n  margin: 10px;\n  border-radius: 10px;\n}\n\n.cards {\n  margin: 10px;\n  border: 2px solid #fff;\n  border-radius: 10px;\n  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), rgba(17, 2, 13, 0.829));\n}\n\n#image {\n  width: 200px;\n  margin: 10px 30px;\n}\n\n.heading {\n  width: 200px;\n  display: flex;\n  justify-content: space-between;\n  margin: 10px 30px;\n}\n\n.heading h2 {\n  color: #fff;\n}\n\n.heading i {\n  color: red;\n  font-size: 24px;\n}\n\nbutton {\n  margin: 5px 50px;\n  font-size: 18px;\n  font-weight: 600;\n  padding: 8px;\n}\n\n.active {\n  display: block;\n}\n\n.hide {\n  display: none;\n}", "",{"version":3,"sources":["webpack://./src/styles/index.css"],"names":[],"mappings":"AAAA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;AACF;;AAEA;EACE,WAAA;EACA,iBAAA;EACA,kBAAA;EACA,gBAAA;AACF;;AAEA;EACE,aAAA;EACA,8BAAA;EACA,gBAAA;EACA,gBAAA;EACA,kBAAA;AACF;;AAEA;EACE,WAAA;EACA,mBAAA;AACF;;AAEA;EACE,gBAAA;AACF;;AAEA;EACE,aAAA;EACA,mBAAA;AACF;;AAEA;EACE,aAAA;EACA,eAAA;EACA,gBAAA;AACF;;AAEA;EACE,eAAA;EACA,UAAA;EACA,QAAA;EACA,SAAA;EACA,gCAAA;EACA,wCAAA;EACA,qCAAA;EACA,oCAAA;EACA,mCAAA;EACA,kCAAA;EACA,WAAA;EACA,mBAAA;EACA,2BAAA;EACA,wBAAA;EACA,uBAAA;EACA,sBAAA;EACA,aAAA;EACA,WAAA;EACA,kBAAA;EACA,eAAA;AACF;;AAEA;EACE,kBAAA;EACA,WAAA;EACA,SAAA;EACA,eAAA;EACA,sBAAA;EACA,WAAA;EACA,YAAA;EACA,eAAA;AACF;;AAEA;EACE,YAAA;EACA,cAAA;AACF;;AAEA;EACE,kBAAA;EACA,YAAA;AACF;;AAEA;EACE,kBAAA;EACA,UAAA;EACA,iBAAA;EACA,eAAA;AACF;;AAEA;EACE,kBAAA;EACA,mBAAA;AACF;;AAEA;EACE,kBAAA;AACF;;AAEA;EACE,kBAAA;EACA,cAAA;AACF;;AAEA;EACE,aAAA;AACF;;AAEA;EACE,WAAA;EACA,eAAA;EACA,gBAAA;EACA,aAAA;AACF;;AAEA;EACE,iBAAA;EACA,WAAA;EACA,YAAA;EACA,YAAA;AACF;;AAEA;EACE,aAAA;AACF;;AAEA;EACE,aAAA;EACA,qCAAA;EACA,SAAA;EACA,YAAA;EACA,mBAAA;AACF;;AAEA;EACE,YAAA;EACA,sBAAA;EACA,mBAAA;EACA,8FACE;AAAJ;;AAOA;EACE,YAAA;EACA,iBAAA;AAJF;;AAOA;EACE,YAAA;EACA,aAAA;EACA,8BAAA;EACA,iBAAA;AAJF;;AAOA;EACE,WAAA;AAJF;;AAOA;EACE,UAAA;EACA,eAAA;AAJF;;AAOA;EACE,gBAAA;EACA,eAAA;EACA,gBAAA;EACA,YAAA;AAJF;;AAOA;EACE,cAAA;AAJF;;AAOA;EACE,aAAA;AAJF","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  width: 100%;\r\n  min-height: 100vh;\r\n  position: relative;\r\n  background: #000;\r\n}\r\n\r\nnav {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  margin: 2px 12px;\r\n  background: #fff;\r\n  border-radius: 8px;\r\n}\r\n\r\n#logoIcon {\r\n  width: 80px;\r\n  border-radius: 80px;\r\n}\r\n\r\nul {\r\n  list-style: none;\r\n}\r\n\r\n#navbar {\r\n  display: flex;\r\n  align-items: center;\r\n}\r\n\r\n#navbar li {\r\n  padding: 12px;\r\n  font-size: 18px;\r\n  font-weight: 600;\r\n}\r\n\r\n.wrapper {\r\n  position: fixed;\r\n  width: 60%;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%);\r\n  -webkit-transform: translate(-50%, -50%);\r\n  -moz-transform: translate(-50%, -50%);\r\n  -ms-transform: translate(-50%, -50%);\r\n  -o-transform: translate(-50%, -50%);\r\n  background-color: rgb(66, 66, 108);\r\n  color: #fff;\r\n  border-radius: 16px;\r\n  -webkit-border-radius: 16px;\r\n  -moz-border-radius: 16px;\r\n  -ms-border-radius: 16px;\r\n  -o-border-radius: 16px;\r\n  display: none;\r\n  height: 90%;\r\n  overflow-y: scroll;\r\n  padding: 16px 0;\r\n}\r\n\r\n#close-btn {\r\n  position: absolute;\r\n  right: 32px;\r\n  top: 32px;\r\n  font-size: 24px;\r\n  background-color: #000;\r\n  width: 35px;\r\n  padding: 8px;\r\n  cursor: pointer;\r\n}\r\n\r\n.details img {\r\n  width: 300px;\r\n  margin: 5% 30%;\r\n}\r\n\r\n.details h1 {\r\n  text-align: center;\r\n  margin: 2% 0;\r\n}\r\n\r\n.details p {\r\n  text-align: center;\r\n  margin: 3%;\r\n  line-height: 28px;\r\n  font-size: 18px;\r\n}\r\n\r\n.comments h2 {\r\n  text-align: center;\r\n  margin-bottom: 14px;\r\n}\r\n\r\n.comments p {\r\n  text-align: center;\r\n}\r\n\r\n.add-comment h2 {\r\n  text-align: center;\r\n  margin: 12px 0;\r\n}\r\n\r\nform {\r\n  margin: 0 30%;\r\n}\r\n\r\ninput[type=\"text\"] {\r\n  margin: 8px;\r\n  font-size: 18px;\r\n  font-weight: 600;\r\n  padding: 10px;\r\n}\r\n\r\n.cards p {\r\n  text-align: start;\r\n  color: #fff;\r\n  height: auto;\r\n  margin: 10px;\r\n}\r\n\r\n#footer p {\r\n  padding: 20px;\r\n}\r\n\r\n.card-container {\r\n  display: grid;\r\n  grid-template-columns: repeat(4, 1fr);\r\n  gap: 2rem;\r\n  margin: 10px;\r\n  border-radius: 10px;\r\n}\r\n\r\n.cards {\r\n  margin: 10px;\r\n  border: 2px solid #fff;\r\n  border-radius: 10px;\r\n  background:\r\n    linear-gradient(\r\n      to right bottom,\r\n      rgba(255, 255, 255, 0.2),\r\n      rgba(17, 2, 13, 0.829)\r\n    );\r\n}\r\n\r\n#image {\r\n  width: 200px;\r\n  margin: 10px 30px;\r\n}\r\n\r\n.heading {\r\n  width: 200px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  margin: 10px 30px;\r\n}\r\n\r\n.heading h2 {\r\n  color: #fff;\r\n}\r\n\r\n.heading i {\r\n  color: red;\r\n  font-size: 24px;\r\n}\r\n\r\nbutton {\r\n  margin: 5px 50px;\r\n  font-size: 18px;\r\n  font-weight: 600;\r\n  padding: 8px;\r\n}\r\n\r\n.active {\r\n  display: block;\r\n}\r\n\r\n.hide {\r\n  display: none;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -677,7 +677,7 @@ var getEpisodeList = /*#__PURE__*/function () {
         switch (_context.prev = _context.next) {
           case 0:
             _context.next = 2;
-            return fetch('https://api.tvmaze.com/seasons/1/episodes');
+            return fetch('https://api.tvmaze.com/search/shows?q=girls');
 
           case 2:
             response = _context.sent;
@@ -688,8 +688,8 @@ var getEpisodeList = /*#__PURE__*/function () {
             data = _context.sent;
             show = ''; // eslint-disable-next-line array-callback-return
 
-            data.map(function (episode) {
-              show += "\n      <div id = \"".concat(episode.id, "\"class = \"cards\">\n       <img src=\"").concat(episode.image.medium, "\" id=\"image\" alt=\"\" />\n        <div class=\"heading\">\n           <h2>").concat(episode.name, "</h2>\n           <span><i class=\"fa-solid fa-heart\"></i></span>\n        </div>\n        <p>Rating: ").concat(episode.rating.average, "</p>\n        <p>").concat(episode.summary, "</p>\n        <button type=\"submit\" onclick=\"document.getElementById(").concat(episode.id, ").style.display='block'\" class=\"comment-btn\">Comments</button>\n        </div>\n      ");
+            data.map(function (dt) {
+              show += "\n      <div id = \"".concat(dt.show.id, "\"class = \"cards\">\n       <img src=\"").concat(dt.show.image.medium, "\" id=\"image\" alt=\"\" />\n        <div class=\"heading\">\n           <h2>").concat(dt.show.name, "</h2>\n           <span><i class=\"fa-solid fa-heart\"></i></span>\n        </div>\n        <p>Rating: ").concat(dt.show.rating.average, "</p>\n        <button type=\"submit\" onclick=\"document.getElementById(").concat(dt.show.id, ").style.display='block'\" class=\"comment-btn\">Comments</button>\n        </div>\n      ");
               card.innerHTML = show;
             });
             commentBtn = document.querySelectorAll('.comment-btn');
@@ -717,37 +717,57 @@ var getEpisodeList = /*#__PURE__*/function () {
 
 window.addEventListener('load', getEpisodeList); // Modal window dom activities
 
-var info = document.querySelector('.details');
+var modal = document.querySelector('.wrapper');
 
 var commentsPopup = /*#__PURE__*/function () {
   var _ref2 = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2(id) {
-    var response, data, output, comment, addComments, html;
+    var urlData, commentsData, response, data, ul, h3, output;
     return _regeneratorRuntime().wrap(function _callee2$(_context2) {
       while (1) {
         switch (_context2.prev = _context2.next) {
           case 0:
             _context2.next = 2;
-            return fetch("https://api.tvmaze.com/shows/1/episodebynumber?season=1&number=".concat(id));
+            return fetch("https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/EgmzMMaC4w7c3EIH6aZ8/comments?item_id=".concat(id));
 
           case 2:
-            response = _context2.sent;
+            urlData = _context2.sent;
             _context2.next = 5;
-            return response.json();
+            return urlData.json();
 
           case 5:
-            data = _context2.sent;
-            output = "\n        <div class=\"image-container\">\n          <span class = \"close-btn\" onclick=\"closeModal().style.display='none'\" class=\"w3-button w3-display-topright\">&times;</span>\n        <img src=\"".concat(data.image.original, "\" id=\"epImage\" alt=\"\" />\n        </div>\n        <h1>").concat(data.name, "</h1>\n        <p>Episode:").concat(data.number, "</p>\n        <p>").concat(data.summary, "</p>\n  ");
-            info.innerHTML += output;
-            info.parentElement.classList.add('active');
-            comment = '';
-            comment += "\n    <div class=\"comments\">\n        <h2>Comments</h2>\n        <p>This is crazy!</p>\n       </div>\n  ";
-            info.innerHTML += comment;
-            addComments = document.querySelector('.add-comment');
-            html = '';
-            html += "\n   <h2>Add a comment</h2>\n        <form action=\"#\">\n          <input type=\"text\" placeholder=\"Your name\" required><br>\n          <input type=\"text\" placeholder=\"Your insights\" required><br>\n          <button type=\"submit\">Comment</button>\n        </form>\n";
-            addComments.innerHTML = html;
+            commentsData = _context2.sent;
+            console.log("COMMME", commentsData);
+            _context2.next = 9;
+            return fetch("https://api.tvmaze.com/shows/".concat(id));
 
-          case 16:
+          case 9:
+            response = _context2.sent;
+            _context2.next = 12;
+            return response.json();
+
+          case 12:
+            data = _context2.sent;
+            ul = document.createElement('ul');
+            h3 = document.createElement('h3');
+
+            if (commentsData.length) {
+              h3.innerHTML = "Comments (".concat(commentsData.length, ")");
+            } else {
+              h3.innerHTML = "Comments (0)";
+            }
+
+            ul.appendChild(h3);
+            output = "\n        <div class=\"image-container\">\n          <span id = \"close-btn\"class=\"w3-button w3-display-topright\">&times;</span>\n        <img src=\"".concat(data.image.medium, "\" id=\"epImage\" alt=\"\" />\n        </div>\n        <h1>").concat(data.name, "</h1>\n        <p>Episode:").concat(data.number, "</p>\n        <p>").concat(data.summary, "</p>\n        <div class=\"comments\">\n          ").concat(commentsData.length > 0 ? "\n      ".concat(commentsData.map(function (comment) {
+              var li = document.createElement('li');
+              li.innerText = "".concat(comment.creation_date, " ").concat(comment.username, ": ").concat(comment.comment);
+              ul.appendChild(li);
+            }), "\n      ") : '', "\n\n       </div>\n       <h2>Add a comment</h2>\n        <form action=\"#\" class=\"form\">\n          <input type=\"text\" placeholder=\"Your name\" id = \"name\" required><br>\n           <input type=\"hidden\" value =\"").concat(data.id, "\"placeholder=\"Your name\" class = \"hidden\" required><br>\n          <textarea name=\"\" placeholder = \"Your insights\" id=\"insight\" cols=\"30\" rows=\"10\" required></textarea><br>\n          <button type=\"submit\" id= \"submit-btn\">Comment</button>\n        </form>\n  ");
+            modal.innerHTML = output;
+            document.querySelector('.comments').appendChild(ul);
+            ul.classList.add('inner-container');
+            modal.classList.add('active');
+
+          case 22:
           case "end":
             return _context2.stop();
         }
@@ -758,14 +778,71 @@ var commentsPopup = /*#__PURE__*/function () {
   return function commentsPopup(_x) {
     return _ref2.apply(this, arguments);
   };
-}();
+}(); // const close = document.querySelector('#close-btn');
+//   close.addEventListener('click', () => {
+//     close.classList.add('hide');
+//   });
 
-var closeModal = function closeModal() {
-  info.innerHTML = '';
-  addComments.innerHTML = '';
-};
 
-closeModal();
+var postComment = /*#__PURE__*/function () {
+  var _ref3 = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee3(id, username, comment) {
+    var commentsUrl, response;
+    return _regeneratorRuntime().wrap(function _callee3$(_context3) {
+      while (1) {
+        switch (_context3.prev = _context3.next) {
+          case 0:
+            commentsUrl = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/EgmzMMaC4w7c3EIH6aZ8/comments';
+            _context3.next = 3;
+            return fetch("".concat(commentsUrl), {
+              method: 'POST',
+              body: JSON.stringify({
+                item_id: id,
+                username: username,
+                comment: comment
+              }),
+              headers: {
+                'Content-type': 'application/json; charset=UTF-8'
+              }
+            });
+
+          case 3:
+            response = _context3.sent;
+            return _context3.abrupt("return", response.text);
+
+          case 5:
+          case "end":
+            return _context3.stop();
+        }
+      }
+    }, _callee3);
+  }));
+
+  return function postComment(_x2, _x3, _x4) {
+    return _ref3.apply(this, arguments);
+  };
+}(); // form event listener
+
+
+modal.addEventListener('submit', function (e) {
+  console.log("e", e);
+  e.preventDefault();
+  var today = new Date();
+  var dd = String(today.getDate()).padStart(2, '0');
+  var mm = String(today.getMonth() + 1).padStart(2, '0');
+  var yyyy = today.getFullYear();
+  today = "".concat(yyyy, "-").concat(mm, "-").concat(dd);
+  var name = document.querySelector('#name').value;
+  var insight = document.querySelector('#insight').value;
+  var id = document.querySelector('.hidden').value;
+  console.log("ÏD>>>>>>", id);
+  var commentsList = document.querySelector('.inner-container');
+  console.log("commentsList", commentsList);
+  commentsList.childNodes[0].innerHTML = "Comments(".concat(commentsList.childNodes.length, ")");
+  var li = document.createElement('li');
+  li.innerText = "".concat(today, " ").concat(name, " ").concat(insight);
+  commentsList.appendChild(li);
+  postComment(name, insight, id);
+});
 })();
 
 /******/ })()
