@@ -19,6 +19,12 @@ nav {
   border-radius: 8px;
 }
 
+.movies-count {
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
 #logoIcon {
   width: 80px;
   border-radius: 80px;
@@ -85,6 +91,12 @@ input[type="text"] {
 
 #footer p {
   padding: 20px;
+}
+
+#footer {
+  text-align: center;
+  background: #fff;
+  font-weight: 500;
 }
 
 .card-container {
